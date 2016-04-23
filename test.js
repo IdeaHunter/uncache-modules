@@ -1,6 +1,6 @@
 'use strict';
 
-var uncacheModules = require('.');
+var uncacheModules = require('./index');
 
 describe('uncacheModules(path)', function() {
     it('throw an error when path is empty', function() {
