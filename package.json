@@ -1,26 +1,29 @@
 {
-  "name": "uncache-modules",
-  "version": "0.0.1",
-  "description": "Unload modules from nodejs module cache",
-  "main": "index.js",
-  "scripts": {
-    "test": "gulp test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/IdeaHunter/uncache-modules.git"
-  },
-  "author": "IdeaHunter <admin@fckn.me>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/IdeaHunter/uncache-modules/issues"
-  },
-  "homepage": "https://github.com/IdeaHunter/uncache-modules#readme",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-eslint": "^2.0.0",
-    "gulp-if": "^2.0.0",
-    "gulp-jasmine": "^2.3.0",
-    "gulp-jsonlint": "^1.1.2"
-  }
+    "name": "uncache-modules",
+    "version": "0.0.1",
+    "description": "Unload modules from nodejs module cache",
+    "main": "index.js",
+    "scripts": {
+        "test": "gulp test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/IdeaHunter/uncache-modules.git"
+    },
+    "author": "IdeaHunter <admin@fckn.me>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/IdeaHunter/uncache-modules/issues"
+    },
+    "homepage": "https://github.com/IdeaHunter/uncache-modules#readme",
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-eslint": "^2.0.0",
+        "gulp-if": "^2.0.0",
+        "gulp-jasmine": "^2.3.0",
+        "gulp-jsonlint": "^1.1.2"
+    },
+    "engines": {
+        "node": ">= 0.11"
+    }
 }
